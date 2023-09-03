@@ -1,5 +1,10 @@
 import { useState } from 'react'
 import './App.css'
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
+import Portfolio from "./components/Portfolio";
+import Resume from "./components/Resume";
 
 export default function App() {
   return(
