@@ -5,16 +5,19 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Portfolio from "./components/Portfolio";
+import Navbar from "./components/Navbar";
 
 export default function App() {
   return(
-    <><main className="text-gray-400 bg-gray-900 body-font">
+    <>
+    <main className="text-gray-400 bg-gray-900 body-font">
       <Navbar />
-      <About Me />
+      <About />
       <Portfolio />
       <Contact />
       <Resume />
-    </main></>
+    </main>
+    </>
   )
 }
 
